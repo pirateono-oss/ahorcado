@@ -21,12 +21,18 @@ export type TranslationDict = {
     remaining: string;
     hint: string;
     lettersUsed: string;
+    difficulty: string;
+    score: string;
+    streak: string;
+    useHint: string;
+    hintRevealed: string;
     categories: {
       animales: string;
       comidas: string;
       paises: string;
-      ciudades: string;
+      profesiones: string;
       naturaleza: string;
+      deportes: string;
     };
   };
 };
