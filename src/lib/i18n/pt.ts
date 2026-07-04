@@ -1,0 +1,30 @@
+import type { TranslationDict } from '../types';
+
+export const pt: TranslationDict = {
+  siteTitle: 'Jogo da Forca',
+  siteTagline: 'Jogo de adivinhação de palavras em espanhol',
+  home: 'Início',
+  language: 'Idioma',
+  allRightsReserved: 'Todos os direitos reservados.',
+  ahorcado: {
+    siteTitle: 'Jogo da Forca — Adivinhação de Palavras em Espanhol',
+    siteTagline: 'Adivinhe a palavra oculta letra por letra antes que a forca esteja completa',
+    category: 'Categoria',
+    newGame: 'Novo Jogo',
+    guess: 'Adivinhar',
+    wrongGuesses: 'Tentativas erradas',
+    youWon: 'Você venceu! 🎉',
+    youLost: 'Você perdeu! 😵',
+    wordWas: 'A palavra era',
+    remaining: 'Tentativas restantes',
+    hint: 'Dica',
+    lettersUsed: 'Letras usadas',
+    categories: {
+      animales: 'Animais',
+      comidas: 'Comidas',
+      paises: 'Países',
+      ciudades: 'Cidades',
+      naturaleza: 'Natureza',
+    },
+  },
+};
